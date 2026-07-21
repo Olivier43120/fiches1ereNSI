@@ -384,6 +384,13 @@
                 `;
             }
 
+            // PDF
+            const pdfLink = document.getElementById('pdf-link');
+            pdfLink.href = sujet.pdf || '#';
+            if (sujet.pdf && window.PDFObject) {
+                PDFObject.embed(sujet.pdf, '#pdf1');
+            }
+
             // Notebook (iframe Basthon) — encodage correct de l'URL du notebook
             const notebookFrame = document.getElementById('notebook-frame');
             const notebookTitle = document.getElementById('notebook-title');
@@ -397,15 +404,6 @@
                 } else {
                     notebookTitle.textContent = '📓 Notebook - énoncé';
                 }
-            }
-
-            document.getElementById('description-content').innerHTML = description;
-
-            // PDF
-            const pdfLink = document.getElementById('pdf-link');
-            pdfLink.href = sujet.pdf || '#';
-            if (sujet.pdf && window.PDFObject) {
-                PDFObject.embed(sujet.pdf, '#pdf1');
             }
 
             // Construction du menu déroulant à partir du manifeste
