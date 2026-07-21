@@ -395,6 +395,21 @@
 
             // Notebook (iframe Basthon) — encodage correct de l'URL du notebook
             const notebookFrame = document.getElementById('notebook-frame');
+            const notebookTitle = document.getElementById('notebook-title');
+            if (sujet.notebook) {
+                notebookFrame.src = `https://notebook.basthon.fr/?from=${encodeURIComponent(sujet.notebook)}`;
+
+                // Le nom du fichier (avant les éventuels ?paramètres) détermine le libellé affiché
+                const notebookFilename = sujet.notebook.split('/').pop().split('?')[0].toLowerCase();
+                if (notebookFilename.endsWith('correction.ipynb')) {
+                    notebookTitle.textContent = '✅ Notebook - avec corrigés';
+                } else {
+                    notebookTitle.textContent = '📓 Notebook - énoncé';
+                }
+            }
+
+            // Notebook (iframe Basthon) — encodage correct de l'URL du notebook
+            const notebookFrame = document.getElementById('notebook-frame');
             if (sujet.notebook) {
                 notebookFrame.src = `https://notebook.basthon.fr/?from=${encodeURIComponent(sujet.notebook)}`;
             }
