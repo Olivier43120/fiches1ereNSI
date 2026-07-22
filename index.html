@@ -384,6 +384,8 @@
                 `;
             }
 
+            document.getElementById('description-content').innerHTML = description;
+
             // PDF
             const pdfLink = document.getElementById('pdf-link');
             pdfLink.href = sujet.pdf || '#';
