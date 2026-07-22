@@ -245,7 +245,7 @@
     </div>
 
     <div id="main">
-        <h1>Travaux Pratiques en 1<sup>ère</sup> NSI</h1>
+        <h1>Travaux Pratiques en T<sup>ale</sup> NSI</h1>
 
         <main class="main-container">
 
@@ -337,12 +337,12 @@
             // Format attendu : [1, 2, 3, ...]
             let manifest = [1];
             try {
-                const resManifest = await fetch('data/sujets/indexProf.json');
+                const resManifest = await fetch('data/sujets/index.json');
                 if (resManifest.ok) {
                     manifest = await resManifest.json();
                 }
             } catch (e) {
-                console.warn('Manifeste data/sujets/index.json introuvable, utilisation du sujet 1 par défaut.');
+                console.warn('Manifeste data/sujetsProf/index.json introuvable, utilisation du sujet 1 par défaut.');
             }
 
             if (!manifest.includes(id)) {
