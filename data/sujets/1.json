@@ -1,7 +1,7 @@
 {
     "titre": "Année scolaire 2026-2027",
     "pdf": "pdf/recursivite_4.pdf",
-    "notebook": "https://gist.githubusercontent.com/Olivier43120/7e785b6a508524e03de8a798a2183e55/raw/b8cf1dde483000ab35b0a6b2c3037b53542abb4d/listesBases.ipynb",
+    "notebook": "https://gist.githubusercontent.com/Olivier43120/7e785b6a508524e03de8a798a2183e55/raw/a095ed9fa6f6c2ab3a4b1d69f9db1db8d1cb6354/listesBases.ipynb",
     "descriptif": "Découverte des manipulations de bases avec les tableaux dynamiques. Cette année, nous appellerons ces structures des <strong>listes</strong>. La plupart de ces situations peuvent constituer une base des programmes courant que l'on rencontrera dans l'optique du Bac. Ils sont à comprendre absolument.",
     "lien": "archives/recursivite4.zip"
 }
