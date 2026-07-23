@@ -3,5 +3,5 @@
     "pdf": "pdf/listes_1.pdf",
     "notebook": "https://gist.githubusercontent.com/Olivier43120/9700f32e49ce904ca5d55f4322cb5a02/raw/b801075f0bcc3b9a0c03f95a8084b1ca62779398/listesBasescorrection.ipynb",
     "descriptif": "Découverte des manipulations de bases avec les tableaux dynamiques. Cette année, nous appellerons ces structures des <strong>listes</strong>. La plupart de ces situations peuvent constituer une base des programmes courant que l'on rencontrera dans l'optique du Bac. Ils sont à comprendre absolument.",
-    "lien": "archives/recursivite4.zip"
+    "lien": "archives/listes_01.zip"
 }
