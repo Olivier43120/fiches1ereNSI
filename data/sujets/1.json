@@ -1,7 +1,7 @@
 {
     "titre": "Année scolaire 2026-2027",
     "pdf": "pdf/CoursChaines.pdf",
-    "notebook": "https://gist.githubusercontent.com/Olivier43120/1a0e957f402f8766185a183d0892eac9/raw/bd18b5e8f0816893cecaec589d0524296fdc5ca5/chainesBases.ipynb",
+    "notebook": "https://gist.githubusercontent.com/Olivier43120/1a0e957f402f8766185a183d0892eac9/raw/87191c081dd56ff53f55ed531dd506455238d2e3/chainesBases.ipynb",
     "descriptif": "Il est question ici de manipuler les chaines de caractères, qui ne figurent pas explicitement au programme mais qui sont nécessaires cette année et en classe de Terminale. Une chaine de caractère est délimitée par des apostrophes (ou guillemets), c'est une est une séquence ordonnée de caractères. Elles offrent une riche panoplie de méthodes pour les traiter.",
     "lien": "archives/Chaines.zip"
 }
