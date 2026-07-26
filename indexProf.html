@@ -284,7 +284,18 @@
                             </select>
                         </form>
 
-                        Liste des documents dicponibles pour les élèves
+                        <div id="liste-eleves" style="
+    margin-top:15px;
+    padding:12px;
+    background:#f8f9fa;
+    border-radius:10px;
+    border:1px solid #ddd;
+">
+    <strong>📘 Documents disponibles pour les élèves :</strong>
+    <div id="liste-eleves-contenu" style="margin-top:8px;">
+        Chargement...
+    </div>
+</div>
                     </div>
                 </div>
 
@@ -350,6 +361,18 @@
             if (!manifest.includes(id)) {
                 id = manifest[0] || 1;
             }
+
+			// Documents accessibles aux élèves
+let manifestEleves = [];
+
+try {
+    const resEleves = await fetch('data/sujets/index.json');
+    if (resEleves.ok) {
+        manifestEleves = await resEleves.json();
+    }
+} catch (e) {
+    console.warn("Impossible de charger index.json");
+}
 
             // Chargement du sujet demandé
             let sujet;
@@ -426,6 +449,25 @@
             select.addEventListener('change', () => {
                 window.location.href = `?id=${select.value}`;
             });
+
+			const zone = document.getElementById("liste-eleves-contenu");
+
+if (manifestEleves.length) {
+    zone.innerHTML = manifestEleves
+        .sort((a, b) => a - b)
+        .map(id => `<span style="
+            display:inline-block;
+            margin:4px;
+            padding:4px 10px;
+            background:#1d1f1e;
+            color:white;
+            border-radius:15px;
+            font-size:14px;
+        ">Document ${id}</span>`)
+        .join("");
+} else {
+    zone.textContent = "Aucun document disponible.";
+}
         }
 
         init();
