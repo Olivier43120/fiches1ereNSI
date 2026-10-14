@@ -1,0 +1,7 @@
+{
+    "titre": "Année scolaire 2026-2027",
+    "pdf": "pdf/ConversionsBases.pdf",
+    "notebook": "https://gist.githubusercontent.com/Olivier43120/8653f76659282a8fd7a5ef05d900f124/raw/78c445a16da21886b6c0b828ca7a029c17821d88/convBasesCorrection.ipynb",
+    "descriptif": "Passage obligé de l'année : maintenant que les bases concernant l'utilisation des chaines de caractèresont été vues, maintenant que les bases de numérations sont connues, nous abordons des exercices classiques : l'automatisation par des programmes de ces tâches de conversion. Ce sont des attendus en fin de Terminale pour les élèves qui font NSI sur les deux années.",
+    "lien": "archives/listes_01.zip"
+}
