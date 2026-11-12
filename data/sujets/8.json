@@ -1,7 +1,7 @@
 {
     "titre": "Année scolaire 2026-2027",
     "pdf": "pdf/TuplesTP.pdf",
-    "notebook": "https://notebook.basthon.fr/?from=https://gist.githubusercontent.com/Olivier43120/b72833c55906bbbad6b557f7c69f7796/raw/7c91d4585f96bcd0690e757980bf4345e6c9166d/tuplesCorrection.ipynb",
+    "notebook": "https://gist.githubusercontent.com/Olivier43120/b72833c55906bbbad6b557f7c69f7796/raw/7c91d4585f96bcd0690e757980bf4345e6c9166d/tuplesCorrection.ipynb",
     "descriptif": "Structure qui aura peu d'importance dans le programme de NSI, non pas parce qu'il ne sert jamais, mais surtout qu'il n'est pas plus compliqué que les listes d'utilisation, et offre moins de possibilités : le tuple. Le TP joint pourte sur les manipulations d'image : une image matricielle est une mosaïque de pixels composé de trois couleurs élémentaires (le rouge, le vert et le bleu). Chaque pixel est donc composé de trois nombres, rassemblé en un tuple. C'est donc l'occasion de travail sur ce type de variables.",
     "lien": "archives/Tuples.zip"
 }
