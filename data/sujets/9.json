@@ -1,0 +1,7 @@
+{
+    "titre": "Année scolaire 2026-2027",
+    "pdf": "pdf/Dictionnaires.pdf",
+    "notebook": "https://gist.githubusercontent.com/Olivier43120/3ffb1c457b4447ed16c5627c1a622757/raw/f5aa3ea6018e2b8ad66e7e911a8504bf02168eb2/DicoEnonce.ipynb",
+    "descriptif": "Dernier type construit de l'année : le dictionaire. Cette structure n'est pas plus difficile que la liste en soit, mais diffère de son utilisation et sera donc parfois source de confusion. Cette structure contient des éléments qui sont des mises en relation entre une clé et une valeur. Cette structure sera fondamentale en classe de Terminale.",
+    "lien": "archives/Dictionnaires.zip"
+}
